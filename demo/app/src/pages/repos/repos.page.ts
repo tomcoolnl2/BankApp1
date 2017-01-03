@@ -7,6 +7,8 @@ import { NavController } from 'ionic-angular';
 })
 export class ReposPage {
 
+    static readonly title: string = 'Repositories';
+
     constructor(public navCtrl: NavController) { }
 
     ionViewDidLoad() {

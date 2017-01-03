@@ -7,6 +7,8 @@ import { NavController } from 'ionic-angular';
 })
 export class OrganisationsPage {
 
+    static readonly title: string = 'Organisations';
+
     constructor(public navCtrl: NavController) { }
 
     ionViewDidLoad() {

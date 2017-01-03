@@ -11,6 +11,9 @@ import { Users } from '../../providers/providers';
     templateUrl: 'user-details.page.html'
 })
 export class UserDetailsPage {
+
+    static readonly title: string = 'User details';
+
     user: User;
     login: string;
 

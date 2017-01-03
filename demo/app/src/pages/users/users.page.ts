@@ -14,6 +14,8 @@ import { UserDetailsPage } from '../../pages/pages';
 })
 export class UsersPage {
 
+    static readonly title: string = 'Users';
+
     users: User[];
     originalUsers: User[];
 

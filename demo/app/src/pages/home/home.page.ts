@@ -9,7 +9,7 @@ import { Reviews } from '../../providers/providers';
 })
 export class HomePage {
  
- public static readonly title: string = 'Home';
+ static readonly title: string = 'Home';
 
   reviews: any;
  
